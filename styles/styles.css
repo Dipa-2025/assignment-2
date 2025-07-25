@@ -234,7 +234,7 @@
 }
 
 /*mobile responsive*/
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .nav-links {
         display: none;
     }
