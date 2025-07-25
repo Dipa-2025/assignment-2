@@ -1,35 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Market</title>
-    
-    <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="./styles/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Market</title>
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--CSS styles-->
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
-    <main>
-        <nav class="navbar container">
-            <figure>
-                <img src="./assets/logo.png" alt="" srcset="">
-            </figure>
-            <div class="nav-items">
-              <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">About Us</a></li>
-              </ul>
-              <div class="cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart ($56)</span>
-              </div>
-            </div>
-        </nav>
-    </main>
-    
+  <main>
+    <!--nav section-->
+    <nav class="navbar container">
+      <figure class="logo">
+        <img src="./assets/logo.png" alt="" srcset="">
+      </figure>
+      <div class="nav-items inter-font">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Cart ($56)</span>
+        </div>
+      </div>
+    </nav>
+    <!--banner section-->
+    <section class="banner-section container">
+      <div class="banner-content">
+        <h1 class="noto-serif-font">ALWAYS <span class="orange-text">FRESH <br> FLOWERS</span></h1>
+          <p class="inter-font">indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+      </div>
+      <div class="banner-img">
+        <img src="./assets/hero-flower.png" alt="" srcset="">
+      </div>
+
+    </section>
+    <!--plants section-->
+    <section class="plant-section container">
+      <div class="plant-heading">
+        <h2><span class="orange-text noto-serif-font">Our </span>Plants</h2>
+        <p class="inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. <br>From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+      </div>
+      <div class="plant-card-container">
+        <!--card 1-->
+        <div class="plant-card inter-font">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 2-->
+        <div class="plant-card inter-font">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 3-->
+        <div class="plant-card inter-font">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 4-->
+        <div class="plant-card inter-font">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 5-->
+        <div class="plant-card inter-font">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 6-->
+        <div class="plant-card inter-font">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 7-->
+        <div class="plant-card inter-font hidden">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+        <!--card 8-->
+        <div class="plant-card inter-font hidden">
+          <img src="./assets/sample-flower-image.png" alt="" srcset="">
+          <p>Lily Blossom</p>
+          <span class="price">20 USD</span>
+          <button class="btn">ADD TO CART</button>
+        </div>
+
+
+
+      </div>
+
+    </section>
+    <!--plants lover section-->
+    <section class="plants-lover container">
+      <div class="lover-img">
+        <img src="./assets/flower-store.png" alt="" srcset="">
+        <div class="badge hidden">
+          <img src="./assets/trusted-badge.png" alt="" srcset="">
+        </div>
+      </div>
+      <div class="lover-content">
+        <h2 class="noto-serif-font">Flower & Plants <br> Lover</h2>
+        <ul class="inter-font">
+          <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+          <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+          <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+        </ul>
+      </div>
+    </section>
+    <!--deals section-->
+    <section class="deal-section container">
+      <div class="deals-heading">
+        <h2 class="noto-serif-font"><span class="orange-text">Latest </span>Deals</h2>
+        <p class="inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+      </div>
+      <div class="deal-cards">
+        <!--deal card 1-->
+        <div class="deal-1">
+          <h3>60% Off | Bloom Plant</h3>
+          <button>Shop Now</button>
+        </div>
+        <!--deal card 2-->
+        <div class="deal-2">
+          <h3>30% Off | Ana Plant</h3>
+          <button>Shop Now</button>
+        </div>
+        <!--deal card 3-->
+        <div class="deal-3">
+          <h3>25% Off | Zabo Plant</h3>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
 </body>
+
 </html>
